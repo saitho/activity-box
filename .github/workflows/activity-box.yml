@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: JasonEtco/activity-box@master
+      - uses: JasonEtco/activity-box@24bbb8ddcc6f8a79addf11d11c7254221843f19a
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
